@@ -1,7 +1,7 @@
 'use strict';
 
 import gulp from 'gulp';
-import run from 'gulp-run';
+import exec from 'gulp-exec';
 import util from 'gulp-util';
 import gulpProtractor from 'gulp-protractor';
 
@@ -28,7 +28,7 @@ gulp.task('e2e', ['webdriver_update'],  () => {
 
 gulp.task('start', () => {
   gulp.src('./')         
-    .pipe(run('./download-file'));  
+    .pipe(exec('./download-file'));  
   	util.log('Listen: http://localhost:9999');
 });
 
