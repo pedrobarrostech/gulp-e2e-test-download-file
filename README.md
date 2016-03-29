@@ -2,7 +2,7 @@
 
 Testing the download file behavior with Protractor in a non Angular Application
 
-See more details in my <a href="https://medium.com/@pedro.barros/destrinchando-a-ecmascript-com-gulp-f370a1046a32#.8hane8vlw" target="_blank">blog</a>.
+See more details in my <a href="" target="_blank">blog</a>.
 
 Installing 
 -------
