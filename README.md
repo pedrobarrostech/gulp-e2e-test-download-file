@@ -2,7 +2,7 @@
 
 Testing the download file behavior with Protractor in a non Angular Application
 
-See more details in my <a href="" target="_blank">blog</a>.
+See more details in my <a href="http://pedroaugust8.com/blog/2016/03/30/testando-download-de-arquivo-com-protractor/" target="_blank">blog</a>.
 
 Installing 
 -------
