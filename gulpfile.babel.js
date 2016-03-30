@@ -26,10 +26,16 @@ gulp.task('e2e', ['webdriver_update','start'],  () => {
     });
 });
 
-gulp.task('start', () => {
+gulp.task('start', ['compile'], () => {
   gulp.src('./')         
     .pipe(exec('./download-file'));  
   	util.log('Listen: http://localhost:9999');
+});
+
+gulp.task('compile', () => {
+  gulp.src('./')         
+    .pipe(exec('go build download-file.go'));  
+    util.log('Compiled!!!');
 });
 
 
