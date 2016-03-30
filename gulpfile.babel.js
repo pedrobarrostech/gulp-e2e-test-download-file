@@ -16,7 +16,7 @@ gulp.task('webdriver_update', webdriver_update);
 // Runs the selenium webdriver
 gulp.task('webdriver_standalone', webdriver_standalone);
 
-gulp.task('e2e', ['webdriver_update'],  () => {
+gulp.task('e2e', ['webdriver_update','start'],  () => {
     gulp.src(specPattern, {
         read: false
     }).pipe(gulpProtractor.protractor({
