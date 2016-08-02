@@ -1,4 +1,4 @@
-# gulp-e2e-test-download-file
+# Gulp E2E Test Download file
 
 Testing the download file behavior with Protractor in a non Angular Application
 
